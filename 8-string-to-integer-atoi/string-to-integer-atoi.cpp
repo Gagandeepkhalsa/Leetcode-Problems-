@@ -4,7 +4,7 @@ public:
         int i = 0, sign = 1, n = s.length();
         long result = 0;
 
-        while (i < n && s[i] == ' ') i++;
+    while (i < n && s[i] == ' ') i++;
 
         if (i < n && (s[i] == '-' || s[i] == '+')) {
             sign = (s[i] == '-') ? -1 : 1;
